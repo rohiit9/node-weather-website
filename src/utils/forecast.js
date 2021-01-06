@@ -28,7 +28,10 @@ const forecast = (latitude, longitude, callback) => {
           ' degrees' +
           '. There is ' +
           body.current.precip +
-          '% chance of rain.',
+          '% chance of rain.' +
+          ' Humidity is ' +
+          body.current.humidity +
+          '%.',
         body.location.country,
         body.location.timezone_id
       )
