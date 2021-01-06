@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Weather website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/weather_icon.png" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <h1>Weather Information</h1>
+      <p>Enter location to get weather forecast details :</p>
+      <form>
+        <input type="text" placeholder="Enter location" />
+        <button type="submit">Search</button>
+      </form>
+      <p id="msg-1"></p>
+      <p id="msg-2"></p>
+    </div>
+    {{>footer}}
+
+    <script src="js/weatherStats.js"></script>
+  </body>
+</html>

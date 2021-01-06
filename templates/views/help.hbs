@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Help Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/weather_icon.png" />
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <div class="help_1">
+        <p>{{ text }}</p>
+        <p>
+          <b>To get weather forecast of desired location, follow the steps :</b>
+        </p>
+      </div>
+      <ol>
+        <li>Click on weather link shown above.</li>
+        <li>Enter the loation (Country/City/Other) in the search box.</li>
+        <li>Click on search button to get the weather forecast.</li>
+      </ol>
+    </div>
+      {{>footer}}
+  </body>
+</html>

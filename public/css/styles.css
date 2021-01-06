@@ -1,0 +1,93 @@
+body {
+  color: #555050;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  /* background-color: #659dbd; */
+  background-color: #557a95;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+  color: white;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+header a {
+  color: white;
+  margin-right: 16px;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portrait {
+  width: 350px;
+}
+
+input {
+  /* border: 1px solid #cccccc;
+  padding: 6px;
+  margin-left: 10px; */
+  font-size: 14px;
+  padding: 5px 5px 5px 5px;
+  display: inline;
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 1px 1px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+ol {
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #eeeeee;
+  margin-left: 18px;
+}
+
+ol li {
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+  margin-top: 25px;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
