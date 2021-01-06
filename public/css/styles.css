@@ -91,3 +91,14 @@ p {
   color: aliceblue;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.notfound1 {
+  color: #d8000c;
+  background-color: #ffd2d2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 100px 0px;
+  padding: 12px;
+  margin: 10px 22px;
+  font-size: 2em;
+  vertical-align: middle;
+}

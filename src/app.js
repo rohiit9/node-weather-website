@@ -72,7 +72,7 @@ app.get('/help/*', (req, res) => {
 
 app.get('*', (req, res) => {
   res.render('notFound', {
-    etext: 'Page not found',
+    etext: 'Error 404 : Page not found!!!!',
     name: 'Rohit Oswal',
   })
 })

@@ -23,7 +23,7 @@ const forecast = (latitude, longitude, callback) => {
         body.current.weather_descriptions[0] +
           '. It is currently ' +
           body.current.temperature +
-          ' degress celsius. It feels like ' +
+          ' degree celsius. It feels like ' +
           body.current.feelslike +
           ' degrees' +
           '. There is ' +
